@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+@keyframes background { 
+  100% {
+    background-size: 100px 100px;
+  }
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8; 
+  text-align: center;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Spartan, sans-serif;
+  font-size: 18px;
+  color: white;
+  background-image: url("caesar.png");
+  background-size: 1280px 800px;
+  background-position: center;
+}
+h1 {
+  color: #a0beff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  margin: 10px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 500px;
+
+  background-color: transparents rgb(255, 255, 255);
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.564);
+}
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+textarea {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  width: calc(100% - 20px);
+  max-height: 150px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+select,
+button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 50%;
+  box-sizing: border-box;
+}
+button {
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #a0beff;
+}
+#result {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+}
